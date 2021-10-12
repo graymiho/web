@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+/* ffdcd7  background-color: #BFB9B1;*/
+
+
+
+body {background: url(../images/wall_wide2.jpg) }
+@font-face {
+
+    src: url('../font/Padrox.ttf');
+    font-family: 'font1';
+}
+@font-face {
+
+    src: url('../font/28 Days Later.ttf');
+    font-family: 'font2';
+}
+
+
+
+header .soyoung{position: relative; left: 200px; top: 50px; }
+header .banksywhoishe{position: relative; left: 30px; top: 50px;}
+header .circle{position: absolute; left: 1200px; top: 700px; z-index: 1;}
+header .arrow{position: absolute; left: 1300px; top: 900px;z-index: 2;}
+
+
+
+
+
+
+
+
+
+/*
+#wrap header h1 p{font-family: 'font2';   font-size:150px; color:#133748; font-weight:600; line-height:120px; }
+#wrap header h1 p{position: absolute; top:50px;}
+#wrap header h2 p{font-family: 'font1';  font-size:150px; color:#08272c; font-weight:600; line-height:900px; }
+#wrap header h2 p{position: absolute; top:50px;}
+#wrap header span p{position: absolute; font-size:20px; color:# left: 200px; top:600px; }
+
+*/
+
+
+
+
+* {padding:0; border:0; margin:0; list-style:none; font-family:'source code pro'; font-size:14px;}
+body {padding:50px;}
+/* dim과 pop은 display:none 해둔다 */
+.dim {display:none; position:fixed; z-index:10; top:0; left:0; width:100%; height:100%; background:#000; opacity:0.5;}
+.pop {display:none; position:fixed; z-index:20; top:50%; left:50%; box-sizing:border-box; width:500px; height:300px; padding:30px; border:2px solid black; margin-top:-150px; margin-left:-250px; background:yellow;}
+.pop .btn_close {position:absolute; top:0; right:0;}
