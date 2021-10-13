@@ -21,7 +21,7 @@ a:link, a:visited {text-decoration:none}
 a:hover {text-decoration:none}
 .blind{display: none;overflow: hidden;position: absolute;width: 0;height: 0;padding: 0;margin: 0; font-size: 0;line-height: 0; text-indent: -9999em;visibility: hidden;outline: none;z-index: -1;}
 html,body{overflow:hidden;height:100%;}
-@charset "UTF-8";
+
 
 /* 스킵 내비게이션
 #skip {position: relative;}
@@ -78,8 +78,8 @@ body,div {margin:0;, padding: 0;}
 /* 헤더 */
 .header {}
 .header .header-tit {text-align: center; }
-.header .header-tit h1 {font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal; }
-.header .header-tit a  {font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal;}
+.header .header-tit h1 {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal; }
+.header .header-tit a  {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal;}
 
 
 
@@ -88,8 +88,8 @@ body,div {margin:0;, padding: 0;}
 
 .nav {}
 .nav-tit {text-align: center; }
-.nav-tit h1 {font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
-.nav-tit a  {font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
+.nav-tit h1 {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
+.nav-tit a  {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
 
 
 
