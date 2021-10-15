@@ -1,11 +1,31 @@
+/* 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, button, abbr, acronym, address, code, del,
+dfn, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th,
+td, hr{margin:0;padding:0;font-size:100%;box-sizing: border-box;}
+body{height:100%;min-height:100%;font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#737373;line-height:1.5;background:url(../images/content_bg4.png) repeat;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal}
+ol, ul, li {list-style:none}
+table {width:100%; border-collapse:collapse;border-spacing:0}
+form, fieldset, iframe {display:block;border:0}
+img, button {border:0 none;vertical-align:top;}
+hr {height:0; display:none}
+i, em, address{font-style:normal}
+label, button{cursor:pointer}
+blockquote, q {quotes:none}
+caption, legend {overflow:hidden;visibility:hidden;position:absolute;width:0;height:0;padding:0;margin:0;font-size:0;text-indent:-100%;white-space:nowrap;z-index:-1}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block;box-sizing: border-box;}
+input, textarea, select, button {font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#919090;line-height:1.5;letter-spacing:0;vertical-align:middle; border:none;}
+input, textarea {margin:0;padding:0;  background:none; box-sizing:border-box;}
+textarea {resize:none}
+a {color:#919090;text-decoration:none}
+a:link, a:visited {text-decoration:none}
+a:hover {text-decoration:none}
+.blind{display: none;overflow: hidden;position: absolute;width: 0;height: 0;padding: 0;margin: 0; font-size: 0;line-height: 0; text-indent: -9999em;visibility: hidden;outline: none;z-index: -1;}
+html,body{overflow:hidden;height:100%;}
+
 @charset "UTF-8";
 
-/* 스킵 내비게이션
-#skip {position: relative;}
-#skip a {position: absolute; left: 0px; top: 0px; border: 1px solid #fff; color: #fff; background: #333; line-height: 30px; width: 200px; text-align: center;}
-#skip a:active,
-#skip a:focus {top: 0;}
-*/
+
 
 /*레이아웃*/
 body {background: url(../images/wall_wide2.jpg) }
@@ -55,8 +75,8 @@ body,div {margin:0;, padding: 0;}
 /* 헤더 */
 .header {}
 .header .header-tit {text-align: center; }
-.header .header-tit h1 {font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal; }
-.header .header-tit a  {font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal;}
+.header .header-tit h1 {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal; }
+.header .header-tit a  {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #2c4659; font-size: 30px; display: inline-block; padding: 5px 20px 6px 20px; margin-top: 30px; font-weight: normal;}
 
 
 
@@ -65,8 +85,8 @@ body,div {margin:0;, padding: 0;}
 
 .nav {}
 .nav-tit {text-align: center; }
-.nav-tit h1 {font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
-.nav-tit a  {font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
+.nav-tit h1 {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
+.nav-tit a  {text-decoration:none; font-family: 'Montserrat', sans-serif; color: #1f4151; font-size: 18px;  margin-top: -30px; display: inline-block; font-weight: normal; }
 
 
 
@@ -91,7 +111,7 @@ body,div {margin:0;, padding: 0;}
 .cont .col6 {margin-right: 0; padding-right: 0;}
 
 
-.cont h3 {color: #8ba1ab; font-size: 20px; font-family: 'Montserrat', sans-serif; }
+.cont h3 {text-decoration:none; color: #8ba1ab; font-size: 20px; font-family: 'Montserrat', sans-serif; }
 
 /*
 .cont .video { max-width: 80%; display: block; margin: 20px auto; }
@@ -121,8 +141,8 @@ body,div {margin:0;, padding: 0;}
 .aside {padding: 25px 0; text-align: left; }
 .aside {font-family: 'Montserrat', sans-serif; margin-left: 15px; background-color: #041316; color: #8ba1ab; opacity:0.75; display: inline-block; font-size: 15px; padding: 20px 100px 20px 60px; margin-top: 0px; text-transform: uppercase;}
 
-.aside h1 {color: #8ba1ab; font-size: 22px;  }
-.aside a  {color: #8ba1ab; font-size: 13px; }
+.aside h1 {text-decoration:none; color: #8ba1ab; font-size: 22px;  }
+.aside a  {text-decoration:none;color: #8ba1ab; font-size: 13px; }
 
 
 
@@ -144,8 +164,8 @@ body,div {margin:0;, padding: 0;}
 .footer ul {margin-bottom: 20px;}
 .footer li {position: relative; display: inline; padding: 0 7px 0 10px;}
 
-.footer a  {color: #8ba1ab; font-size: 15px; }
-.footer address  {color: #8ba1ab; font-size: 15px; }
+.footer a  {text-decoration:none; color: #8ba1ab; font-size: 15px; }
+.footer address  {text-decoration:none; color: #8ba1ab; font-size: 15px; }
 
 
 /*
