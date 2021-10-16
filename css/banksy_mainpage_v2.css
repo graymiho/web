@@ -1,28 +1,4 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, button, abbr, acronym, address, code, del,
-dfn, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th,
-td, hr{margin:0;padding:0;font-size:100%;box-sizing: border-box;}
-body{height:100%;min-height:100%;font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#737373;line-height:1.5;background:url(../images/content_bg4.png) repeat;}
-h1, h2, h3, h4, h5, h6 {font-weight:normal}
-ol, ul, li {list-style:none}
-table {width:100%; border-collapse:collapse;border-spacing:0}
-form, fieldset, iframe {display:block;border:0}
-img, button {border:0 none;vertical-align:top;}
-hr {height:0; display:none}
-i, em, address{font-style:normal}
-label, button{cursor:pointer}
-blockquote, q {quotes:none}
-caption, legend {overflow:hidden;visibility:hidden;position:absolute;width:0;height:0;padding:0;margin:0;font-size:0;text-indent:-100%;white-space:nowrap;z-index:-1}
-header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block;box-sizing: border-box;}
-input, textarea, select, button {font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#919090;line-height:1.5;letter-spacing:0;vertical-align:middle; border:none;}
-input, textarea {margin:0;padding:0;  background:none; box-sizing:border-box;}
-textarea {resize:none}
-a {color:#919090;text-decoration:none}
-a:link, a:visited {text-decoration:none}
-a:hover {text-decoration:none}
-.blind{display: none;overflow: hidden;position: absolute;width: 0;height: 0;padding: 0;margin: 0; font-size: 0;line-height: 0; text-indent: -9999em;visibility: hidden;outline: none;z-index: -1;}
-html,body{overflow:hidden;height:100%;}
 
-@charset "UTF-8";
 
 
 
@@ -31,8 +7,8 @@ body {background: url(../images/wall_wide2.jpg) }
 #wrap {                width: 100%;}
 #header {              width: 100%;   height: 150px;  }
 #nav {                 width: 100%;   height: 100px;  }
-#contents {display: flex; justify-content:center; align-item:center; float: left; width: 75%;    height: 1100px; }
-#aside {display: flex; justify-content:center; align-item:center; float: left;   width: 25%;    height: 620px;  }
+#contents {float: left; width: 75%;    height: 1100px; }
+#aside {float: left;   width: 25%;    height: 620px;  }
 #footer {float: left;  width: 25%;    height: 400px; }
 
 #header:hover a{color: #fff;}
@@ -98,20 +74,19 @@ body,div {margin:0;, padding: 0;}
 .cont {}
 .cont {overflow: hidden; padding-top: 30px; }
 .cont {padding: 25px 0; text-align: left;}
-.cont {margin-left: 30px; margin-right: 15px; color: #fff; background-color: #041316; color: #8ba1ab; opacity:0.75; display: inline-block; font-size: 15px; padding: 40px 00px 50px 50px; margin-top: 0px; text-transform: uppercase; }
+.cont {margin-left: 30px; margin-right: 15px; color: #fff; background-color: #041316; color: #8ba1ab; opacity:0.75; display: inline-block; font-size: 15px; padding: 40px 40px 180px 40px; margin-top: 0px; text-transform: uppercase;}
 
-.cont .column {position: relative; float: left; width: 310px; height: 363px; margin: 0 60px 60px 0; padding-right: 30px;}
+.cont .column {position: relative; float: left; width: 289px; height: 363px; margin: 0 30px 30px 0; padding-right: 30px;}
 
-
-.cont .col1 {border-right: 0px solid #2c4659; }
-.cont .col2 {border-right: 0px solid #2c4659;}
+.cont .col1 {border-right: 1px solid #2c4659;}
+.cont .col2 {border-right: 1px solid #2c4659;}
 .cont .col3 {margin-right: 0; padding-right: 0;}
-.cont .col4 {border-right: 0px solid #2c4659;}
-.cont .col5 {border-right: 0px solid #2c4659;}
-.cont .col6 {margin-right: 0; padding-right:3;}
+.cont .col4 {border-right: 1px solid #2c4659;}
+.cont .col5 {border-right: 1px solid #2c4659;}
+.cont .col6 {margin-right: 0; padding-right: 0;}
 
 
-.cont h3 {color: #8ba1ab; font-size: 20px; font-family: 'Montserrat', sans-serif; }
+.cont h3 {text-decoration:none; color: #8ba1ab; font-size: 20px; font-family: 'Montserrat', sans-serif; }
 
 /*
 .cont .video { max-width: 80%; display: block; margin: 20px auto; }
@@ -142,7 +117,7 @@ body,div {margin:0;, padding: 0;}
 .aside {font-family: 'Montserrat', sans-serif; margin-left: 15px; background-color: #041316; color: #8ba1ab; opacity:0.75; display: inline-block; font-size: 15px; padding: 20px 100px 20px 60px; margin-top: 0px; text-transform: uppercase;}
 
 .aside h1 {text-decoration:none; color: #8ba1ab; font-size: 22px;  }
-.aside a  {text-decoration:none; color: #8ba1ab; font-size: 13px; }
+.aside a  {text-decoration:none;color: #8ba1ab; font-size: 13px; }
 
 
 
