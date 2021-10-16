@@ -24,20 +24,15 @@ html,body{overflow:hidden;height:100%;}
 
 @charset "UTF-8";
 
-/* 스킵 내비게이션
-#skip {position: relative;}
-#skip a {position: absolute; left: 0px; top: 0px; border: 1px solid #fff; color: #fff; background: #333; line-height: 30px; width: 200px; text-align: center;}
-#skip a:active,
-#skip a:focus {top: 0;}
-*/
+
 
 /*레이아웃*/
 body {background: url(../images/wall_wide2.jpg) }
 #wrap {                width: 100%;}
 #header {              width: 100%;   height: 150px;  }
 #nav {                 width: 100%;   height: 100px;  }
-#contents {float: left; width: 75%;    height: 1100px; }
-#aside {float: left;   width: 25%;    height: 620px;  }
+#contents {display: flex; justify-content:center; align-item:center; float: left; width: 75%;    height: 1100px; }
+#aside {display: flex; justify-content:center; align-item:center; float: left;   width: 25%;    height: 620px;  }
 #footer {float: left;  width: 25%;    height: 400px; }
 
 #header:hover a{color: #fff;}
