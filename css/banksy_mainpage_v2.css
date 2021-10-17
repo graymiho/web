@@ -118,7 +118,7 @@ body {background: url(../images/wall_wide2.jpg) }
 
 .footer{}
 .footer {padding: 25px 0px;  text-align: left;}
-.footer {font-family: 'Montserrat', sans-serif; margin-left: 15px;  background-color: #041316; color: #8ba1ab; opacity:0.75; display: inline-block; font-size: 15px; padding: 20px 50px 120px 40px; margin-top: 0px; text-transform: uppercase;}
+.footer {font-family: 'Montserrat', sans-serif; margin-left: 15px;  background-color: #041316; color: #8ba1ab; opacity:0.75; display: inline-block; font-size: 15px; padding: 20px 55px 24px 40px; margin-top: 0px; text-transform: uppercase;}
 .footer ul {margin-bottom: 20px;}
 .footer li {position: relative; display: inline; padding: 0 7px 0 10px;}
 
